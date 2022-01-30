@@ -1,0 +1,86 @@
+<configs>
+<!-- 	
+
+I had to split it, this wont work.	
+	
+<remove xpath="/progression/perks/perk[@name='perkDeadEye' or @name='perkDemolitionsExpert' @name='perkJavelinMaster' or @name='perkLuckyLooter' or @name='perkSalvageOperations'or @name='perkBoomstick' or @name='perkPummelPete' or @name='perkSkullCrusher' or @name='perkPackMule' or @name='perkMasterChef' or @name='perkMiner69r' or @name='perkMotherLode' or @name='perkBrawler' or @name='perkMachineGunner' or @name='perkTheHuntsman' or @name='perkLivingOffTheLand' or @name='perkPainTolerance' or @name='perkHealingFactor' or @name='perkSlowMetabolism' or @name='perkArchery' or @name='perkGunslinger' or @name='perkDeepCuts' or @name='perkHiddenStrike' or @name='perkFromTheShadows' or @name='perkElectrocutioner' or @name='perkTurrets' or @name='perkBetterBarter' or @name='perkCharismaticNature' or @name='perkAdvancedEngineering' or @name='perkGreaseMonkey']/level_requirements" />
+<append xpath="/progression/perks/perk[@name='perkDeadEye' or @name='perkDemolitionsExpert' @name='perkJavelinMaster' or @name='perkLuckyLooter' or @name='perkSalvageOperations'or @name='perkBoomstick' or @name='perkPummelPete' or @name='perkSkullCrusher' or @name='perkPackMule' or @name='perkMasterChef' or @name='perkMiner69r' or @name='perkMotherLode' or @name='perkBrawler' or @name='perkMachineGunner' or @name='perkTheHuntsman' or @name='perkLivingOffTheLand' or @name='perkPainTolerance' or @name='perkHealingFactor' or @name='perkSlowMetabolism' or @name='perkArchery' or @name='perkGunslinger' or @name='perkDeepCuts' or @name='perkHiddenStrike' or @name='perkFromTheShadows' or @name='perkElectrocutioner' or @name='perkTurrets' or @name='perkBetterBarter' or @name='perkCharismaticNature' or @name='perkAdvancedEngineering' or @name='perkGreaseMonkey']">
+
+-->
+
+<!-- PERCEPTION SKILLS  -->
+<!-- 5 LEVELS  -->		
+	<remove xpath="/progression/perks/perk[@name='perkDeadEye' or @name='perkDemolitionsExpert' or @name='perkJavelinMaster' or @name='perkLuckyLooter' or @name='perkSalvageOperations']/level_requirements" />
+	<append xpath="/progression/perks/perk[@name='perkDeadEye' or @name='perkDemolitionsExpert' or @name='perkJavelinMaster' or @name='perkLuckyLooter' or @name='perkSalvageOperations']">
+ 		<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="5" desc_key="reqLevel05"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqLevel10"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="20" desc_key="reqLevel20"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="30" desc_key="reqLevel30"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="40" desc_key="reqLevel40"/></level_requirements>
+	</append>
+
+<!-- STRENGTH SKILLS -->
+<!-- 5 LEVELS  -->
+	<remove xpath="/progression/perks/perk[@name='perkBoomstick' or @name='perkPummelPete' or @name='perkSkullCrusher' or @name='perkPackMule' or @name='perkMasterChef' or @name='perkMiner69r' or @name='perkMotherLode']/level_requirements" />
+	<append xpath="/progression/perks/perk[@name='perkBoomstick' or @name='perkPummelPete' or @name='perkSkullCrusher' or @name='perkPackMule' or @name='perkMasterChef' or @name='perkMiner69r' or @name='perkMotherLode']">
+ 		<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="5" desc_key="reqLevel05"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqLevel10"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="20" desc_key="reqLevel20"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="30" desc_key="reqLevel30"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="40" desc_key="reqLevel40"/></level_requirements>
+	</append>
+
+<!-- FORTITUDE SKILLS -->
+<!-- 5 LEVELS  -->
+	<remove xpath="/progression/perks/perk[@name='perkBrawler' or @name='perkMachineGunner' or @name='perkTheHuntsman' or @name='perkPainTolerance' or @name='perkHealingFactor' or @name='perkSlowMetabolism']/level_requirements" />
+	<append xpath="/progression/perks/perk[@name='perkBrawler' or @name='perkMachineGunner' or @name='perkTheHuntsman' or @name='perkPainTolerance' or @name='perkHealingFactor' or @name='perkSlowMetabolism']">
+ 		<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="5" desc_key="reqLevel05"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqLevel10"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="20" desc_key="reqLevel20"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="30" desc_key="reqLevel30"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="40" desc_key="reqLevel40"/></level_requirements>
+	</append>
+
+<!-- AGILITY SKILLS -->
+<!-- 5 LEVELS  -->
+	<remove xpath="/progression/perks/perk[@name='perkArchery' or @name='perkGunslinger' or @name='perkDeepCuts' or @name='perkHiddenStrike' or @name='perkFromTheShadows']/level_requirements" />
+	<append xpath="/progression/perks/perk[@name='perkArchery' or @name='perkGunslinger' or @name='perkDeepCuts' or @name='perkHiddenStrike' or @name='perkFromTheShadows']">
+ 		<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="5" desc_key="reqLevel05"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqLevel10"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="20" desc_key="reqLevel20"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="30" desc_key="reqLevel30"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="40" desc_key="reqLevel40"/></level_requirements>
+	</append>
+
+<!-- INTELLECT SKILLS -->
+<!-- 5 LEVELS  -->
+	<remove xpath="/progression/perks/perk[@name='perkElectrocutioner' or @name='perkTurrets' or @name='perkBetterBarter' or @name='perkAdvancedEngineering' or @name='perkGreaseMonkey']/level_requirements" />
+	<append xpath="/progression/perks/perk[@name='perkElectrocutioner' or @name='perkTurrets' or @name='perkBetterBarter' or @name='perkAdvancedEngineering' or @name='perkGreaseMonkey']">
+ 		<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="5" desc_key="reqLevel05"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqLevel10"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="20" desc_key="reqLevel20"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="30" desc_key="reqLevel30"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="40" desc_key="reqLevel40"/></level_requirements>
+	</append>
+
+<!-- ALL SKILLS -->
+<!-- 4 LEVELS  -->
+	<remove xpath="/progression/perks/perk[@name='perkCharismaticNature' or @name='perkPenetrator' or @name='perkSexualTrex' or @name='perkHeavyArmor' or @name='perkLightArmor' or @name='perkParkour' or @name='perkDaringAdventurer' or @name='perkPhysician']/level_requirements" />
+	<append xpath="/progression/perks/perk[@name='perkCharismaticNature' or @name='perkPenetrator' or @name='perkSexualTrex' or @name='perkHeavyArmor' or @name='perkLightArmor' or @name='perkParkour' or @name='perkDaringAdventurer' or @name='perkPhysician']">
+		<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqLevel10"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="20" desc_key="reqLevel20"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="30" desc_key="reqLevel30"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="40" desc_key="reqLevel40"/></level_requirements>
+	</append>
+
+<!-- ALL SKILLS -->
+<!-- 3 LEVELS  -->
+	<remove xpath="/progression/perks/perk[@name='perkLivingOffTheLand' or@name='perkLockPicking' or @name='perkInfiltrator' or @name='perkAnimalTracker' or @name='perkTreasureHunter' or @name='perkWellInsulated' or @name='perkRuleOneCardio' or @name='perkRunAndGun' or @name='perkFlurryOfBlows']/level_requirements" />
+	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand' or@name='perkLockPicking' or @name='perkInfiltrator' or @name='perkAnimalTracker' or @name='perkTreasureHunter' or @name='perkWellInsulated' or @name='perkRuleOneCardio' or @name='perkRunAndGun' or @name='perkFlurryOfBlows']">
+		<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqLevel10"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="20" desc_key="reqLevel20"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="30" desc_key="reqLevel30"/></level_requirements>
+	</append>
+
+
+</configs>

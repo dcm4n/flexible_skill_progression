@@ -1,0 +1,6 @@
+Key,english
+reqLevel05,Character Level 5
+reqLevel10,Character Level 10
+reqLevel20,Character Level 20
+reqLevel30,Character Level 30
+reqLevel40,Character Level 40

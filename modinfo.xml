@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="flexible_skill_progression" />
+		<Description value="With this mod, all the skills requirements are related to character level instead of main skill level" />
+		<Author value="dcm4n" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>
